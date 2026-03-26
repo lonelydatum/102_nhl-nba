@@ -1,0 +1,56 @@
+@import '../../../_common/styles/common.scss';
+
+
+#banner{
+ width: 320px;
+ height: 50px; 
+}
+
+
+
+#olg{	
+	width: 51px;
+	height: 47px;
+	@include pos(0, 15);	
+}
+
+
+
+#legalBtn{	
+	@include pos(280, 0);	
+	width: 80px;
+	display: none;
+	// opacity: 1 !important;
+}
+#legalContent{
+	line-height: 14px;
+	font-size: 12px;
+	padding: 2px;
+	
+}
+
+#bars{
+	@include pos(0, 0);
+	display: flex;
+	position: relative;
+	z-index: 0;
+	.bar{
+
+		padding: 0;
+		margin: 0;
+	}
+	.bar_0{
+		width: 98px !important;
+	}
+}
+
+.logos{
+	z-index: 1;
+}
+
+.hero{
+	@include pos(12, 82);
+	width: 278px;
+	height: 104px;
+	overflow: hidden;	
+}
