@@ -236,9 +236,9 @@ canvas, .text, .frame, .outline, img {
 #olg {
   width: 87px;
   height: 49px;
-  -webkit-transform: translate(0px, 555px);
-  -ms-transform: translate(0px, 555px);
-  transform: translate(0px, 555px);
+  -webkit-transform: translate(0px, 554px);
+  -ms-transform: translate(0px, 554px);
+  transform: translate(0px, 554px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -278,7 +278,8 @@ canvas, .text, .frame, .outline, img {
   position: absolute;
 }
 
-#bars .bar_10, #bars .bar_11 {
+#bars .bar_10,
+#bars .bar_11 {
   display: none;
 }
 
