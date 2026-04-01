@@ -11,6 +11,12 @@
   @include pos(0, 28);
 }
 
+#olg {
+  width: 108px;
+  height: 69px;
+  @include pos(0, 31);
+}
+
 #legalBtn {
   @include pos(650, 0);
   width: 80px;
