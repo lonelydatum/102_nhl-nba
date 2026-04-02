@@ -246,18 +246,6 @@ canvas, .text, .frame, .outline, img {
   position: absolute;
 }
 
-#legalBtn {
-  -webkit-transform: translate(650px, 0px);
-  -ms-transform: translate(650px, 0px);
-  transform: translate(650px, 0px);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
-  width: 80px;
-}
-
 #bars {
   -webkit-transform: translate(0px, -200px);
   -ms-transform: translate(0px, -200px);

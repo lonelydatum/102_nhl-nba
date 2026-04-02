@@ -1,0 +1,12 @@
+@import "./common.scss";
+
+#banner {
+  width: 728px;
+  height: 90px;
+}
+
+#olg {
+  width: 108px;
+  height: 69px;
+  @include pos(0, 31);
+}

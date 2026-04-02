@@ -27,20 +27,19 @@ function init() {
 }
 
 const colors = [
-  "e0f0e0",
-  "d3ead3",
-  "c5e3c5",
-  "b8ddb8",
-  "aad7ac",
-  "9cd2a0",
-  "8dcd94",
-  "7fc889",
-  "70c27c",
-  "5fbd71",
-  "4bb964",
-  "35b55a",
-  "35b55a",
-  "35b55a",
+  "ffffff",
+  "ECFBF1",
+  "D9F7E4",
+  "C3F3D5",
+  "B1EDC7",
+  "9EE9B9",
+  "8AE6AC",
+  "75E19D",
+  "62DD8F",
+  "4ED881",
+  "3CD574",
+  "26D065",
+  "15CC58",
 ];
 
 function stag(vh) {

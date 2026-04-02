@@ -1,25 +1,7 @@
-@import "../../../_common/styles/common.scss";
-
-#banner {
-  width: 160px;
-  height: 600px;
-}
-
-#olg {
-  width: 87px;
-  height: 49px;
-  @include pos(0, 554);
-  // opacity: .5 !important;
-}
-
-#legalBtn {
-  @include pos(95, 4);
-  width: 72px;
-  // opacity: 1;
-}
+@import "../../../_common/styles/b160x600.scss";
 
 #bars {
-  @include pos(10, 415);
+  @include pos(10, 414);
   position: relative;
   z-index: 0;
   // width: 300px;
@@ -50,11 +32,6 @@
     // transform: scale(.66) translate(-103px, -174px);
 
     // opacity: .5;
-  }
-
-  // clip-path: inset(10px 20px 30px 40px);
-  img {
-    // transform: scale(1)
   }
 
   // opacity: .3

@@ -259,9 +259,9 @@ canvas, .text, .frame, .outline, img {
 }
 
 #bars {
-  -webkit-transform: translate(10px, 415px);
-  -ms-transform: translate(10px, 415px);
-  transform: translate(10px, 415px);
+  -webkit-transform: translate(10px, 414px);
+  -ms-transform: translate(10px, 414px);
+  transform: translate(10px, 414px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;

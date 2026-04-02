@@ -236,9 +236,9 @@ canvas, .text, .frame, .outline, img {
 #olg {
   width: 51px;
   height: 47px;
-  -webkit-transform: translate(0px, 15px);
-  -ms-transform: translate(0px, 15px);
-  transform: translate(0px, 15px);
+  -webkit-transform: translate(0px, 14px);
+  -ms-transform: translate(0px, 14px);
+  transform: translate(0px, 14px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;

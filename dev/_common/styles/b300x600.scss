@@ -1,0 +1,19 @@
+@import "./common.scss";
+
+#banner {
+  width: 300px;
+  height: 600px;
+  background-color: #00c849;
+}
+
+#olg {
+  width: 120px;
+  height: 89px;
+  @include pos(0, 527);
+}
+
+#legalBtn {
+  @include pos(235, 5);
+  width: 92px;
+  // opacity: 1;
+}

@@ -1,20 +1,4 @@
-@import "../../../_common/styles/common.scss";
-
-#banner {
-  width: 728px;
-  height: 90px;
-}
-
-#olg {
-  width: 108px;
-  height: 69px;
-  @include pos(0, 31);
-}
-
-#legalBtn {
-  @include pos(650, 0);
-  width: 80px;
-}
+@import "../../../_common/styles/b728x90.scss";
 
 #bars {
   @include pos(0, -200);
