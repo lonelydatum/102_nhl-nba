@@ -8,11 +8,19 @@ gsap.defaults({
 
 const { w, h } = size;
 
-const READ = {
+let READ = {
   t1: 2,
   t2: 1.7,
   t3: 2.1,
 };
+
+if (universalBanner.name === "agnostic") {
+  READ = {
+    t1: 1.8,
+    t2: 1.6,
+    t3: 2.1,
+  };
+}
 
 function init() {
   if (universalBanner.name === "agnostic") {

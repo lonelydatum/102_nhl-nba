@@ -25,6 +25,14 @@ var READ = {
   t3: 2.1
 };
 
+if (universalBanner.name === "agnostic") {
+  exports.READ = READ = {
+    t1: 1.8,
+    t2: 1.6,
+    t3: 2.1
+  };
+}
+
 function init() {
   if (universalBanner.name === "agnostic") {
     document.getElementById("legalContent").innerHTML = "Individuals must be 18+ to play in-store with PROLINE.";
