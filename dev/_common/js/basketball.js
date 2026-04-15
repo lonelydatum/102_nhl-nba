@@ -15,6 +15,9 @@ const READ = {
 };
 
 function init() {
+  if (universalBanner.name === "agnostic") {
+    document.getElementById("legalContent").innerHTML = "Individuals must be 18+ to play in-store with PROLINE.";
+  }
   const tl = new TimelineMax({
     onComplete: () => {
       if (document.getElementById("legalBtn")) {
