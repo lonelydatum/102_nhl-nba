@@ -30,3 +30,7 @@
   height: 104px;
   overflow: hidden;
 }
+
+.playsmart {
+  @include pos-scale(0, -2, 0.5);
+}
