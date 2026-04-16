@@ -54,7 +54,7 @@ const colors = [
 ];
 
 function stag(vh) {
-  return { duration: 0.3, opacity: 0, stagger: 0.1, ...vh };
+  return { duration: 0.35, opacity: 0, stagger: 0.1, ...vh };
 }
 
 function start(barOptions, vh = { x: -size.w }) {
@@ -81,8 +81,8 @@ function start(barOptions, vh = { x: -size.w }) {
 
   if (universalBanner.size === "300x250" || universalBanner.size === "160x600" || universalBanner.size === "300x600") {
     tl.to([".logos"], { duration: 0.2, opacity: 0 }, "-=.5");
-    tl.from(".t4", { duration: 0.3, opacity: 0 });
-    tl.from(".t3", stag(vh));
+    tl.from(".t4", { duration: 0.35, opacity: 0 });
+    tl.from(".t3", stag(vh), "+=.1");
   } else {
     tl.set(".logos", { opacity: 0, duration: 0.1 }, "-=.5");
     tl.from(".t3", stag(vh));
@@ -97,7 +97,7 @@ function start(barOptions, vh = { x: -size.w }) {
   // 	console.log('sldkfjksdlfj');
   // }
 
-  tl.from([".cta", ".legalBtn"], { duration: 0.3, opacity: 0 });
+  tl.from([".cta", ".legalBtn"], { duration: 0.3, opacity: 0 }, "+=.3");
 
   tl.add(olg());
 }

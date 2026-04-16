@@ -51,7 +51,7 @@ function init() {
 var colors = ["ffffff", "ECFBF1", "D9F7E4", "C3F3D5", "B1EDC7", "9EE9B9", "8AE6AC", "75E19D", "62DD8F", "4ED881", "3CD574", "26D065", "15CC58"];
 
 function stag(vh) {
-  return _extends({ duration: 0.3, opacity: 0, stagger: 0.1 }, vh);
+  return _extends({ duration: 0.35, opacity: 0, stagger: 0.1 }, vh);
 }
 
 function start(barOptions) {
@@ -80,8 +80,8 @@ function start(barOptions) {
 
   if (universalBanner.size === "300x250" || universalBanner.size === "160x600" || universalBanner.size === "300x600") {
     tl.to([".logos"], { duration: 0.2, opacity: 0 }, "-=.5");
-    tl.from(".t4", { duration: 0.3, opacity: 0 });
-    tl.from(".t3", stag(vh));
+    tl.from(".t4", { duration: 0.35, opacity: 0 });
+    tl.from(".t3", stag(vh), "+=.1");
   } else {
     tl.set(".logos", { opacity: 0, duration: 0.1 }, "-=.5");
     tl.from(".t3", stag(vh));
@@ -96,7 +96,7 @@ function start(barOptions) {
   // 	console.log('sldkfjksdlfj');
   // }
 
-  tl.from([".cta", ".legalBtn"], { duration: 0.3, opacity: 0 });
+  tl.from([".cta", ".legalBtn"], { duration: 0.3, opacity: 0 }, "+=.3");
 
   tl.add((0, _proline.olg)());
 }
@@ -232,10 +232,10 @@ function start(barOptions) {
   tl.to(".logos", { opacity: 0, duration: 0.3 }, "end");
 
   tl.set(".frame2", { opacity: 1 }, "end");
-  tl.from(".t3", (0, _commonJsBasketballJs.stag)(vh));
+  tl.from(".t3", (0, _commonJsBasketballJs.stag)(vh), "+=.1");
 
   tl.from(".t4", { duration: 0.3, opacity: 0 });
-  tl.from([".cta", ".legalBtn"], { duration: 0.3, opacity: 0 });
+  tl.from([".cta", ".legalBtn"], { duration: 0.3, opacity: 0 }, "+=.3");
 
   tl.add((0, _commonJsBasketballJs.olg)());
 }

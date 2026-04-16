@@ -29,10 +29,10 @@ function start(barOptions, vh = { x: -size.w }) {
   tl.to(".logos", { opacity: 0, duration: 0.3 }, "end");
 
   tl.set(".frame2", { opacity: 1 }, "end");
-  tl.from(".t3", stag(vh));
+  tl.from(".t3", stag(vh), "+=.1");
 
   tl.from(".t4", { duration: 0.3, opacity: 0 });
-  tl.from([".cta", ".legalBtn"], { duration: 0.3, opacity: 0 });
+  tl.from([".cta", ".legalBtn"], { duration: 0.3, opacity: 0 }, "+=.3");
 
   tl.add(olg());
 }
